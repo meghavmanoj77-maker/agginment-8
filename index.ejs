@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><%= name %></title>
+</head>
+<body>
+<h1><%= name %>'s Portfolio</h1>
+<ul>
+<% items.forEach(item => { %>
+<li><%= item.title %> - <%= item.tech %></li>
+<% }) %>
+</ul>
+</body>
+</html>
